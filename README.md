@@ -1,5 +1,7 @@
 # Bmebot.github.io
 BMEbot: Your friendly guide to the fascinating world of biomedicine. Learn, explore, and discover with us!
+.
+.
 <script type="text/javascript">
   (function(d, t) {
       var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
