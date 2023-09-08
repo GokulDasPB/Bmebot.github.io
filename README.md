@@ -6,7 +6,7 @@
     <!-- Header -->
     <header>
         <div id="logo-container">
-            <img src="[![MyBME BOT]MyBME BOT.png" >
+            <img src="MyBME BOT.png" alt="BMEbot Logo">
         </div>
         <div id="header-text">
             <h1>BMEbot</h1>
