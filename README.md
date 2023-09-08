@@ -7,6 +7,32 @@
     <header>
         <div id="logo-container">
             <img src="MyBME BOT.png" alt="BMEbot Logo">
+            <script>
+        // JavaScript code for image resizing
+        var logo = document.getElementById("header-logo");
+                    // Function to resize the image
+        function resizeImage() {
+            var maxWidth = 300; // Set your desired max width
+            var maxHeight = 200; // Set your desired max height
+            var width = logo.width;
+            var height = logo.height;
+            // Check if the current dimensions exceed the desired maximums
+            if (width > maxWidth || height > maxHeight) {
+                // Calculate the new dimensions while preserving the aspect ratio
+                if (width / maxWidth > height / maxHeight) {
+                    height = height * maxWidth / width;
+                    width = maxWidth;
+                } else {
+                    width = width * maxHeight / height;
+                    height = maxHeight;
+                }
+                // Apply the new dimensions to the image
+                logo.width = width;
+                logo.height = height;
+            }
+        }
+        // Call the resize function when the image loads
+        logo.onload = resizeImage;
         </div>
         <div id="header-text">
             <h1>BMEbot</h1>
