@@ -12,8 +12,8 @@
         var logo = document.getElementById("header-logo");
                     // Function to resize the image
         function resizeImage() {
-            var maxWidth = 150; // Set your desired max width
-            var maxHeight = 150; // Set your desired max height
+            var maxWidth = 300; // Set your desired max width
+            var maxHeight = 200; // Set your desired max height
             var width = logo.width;
             var height = logo.height;
             // Check if the current dimensions exceed the desired maximums
