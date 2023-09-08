@@ -1,6 +1,32 @@
-# Bmebot.github.io
-BMEbot: Your friendly guide to the fascinating world of biomedicine. Learn, explore, and discover with us!
-## Below you will find an icon for the bot, please click and continue!
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Your Website</title>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div id="logo-container">
+            <img src="![image](https://github.com/GokulDasPB/Bmebot.github.io/assets/83214420/4baac412-d9f2-44f1-b619-34653a6ec38c)
+" alt="BMEbot Logo">
+        </div>
+        <div id="header-text">
+            <h1>BMEbot</h1>
+            <p>Your Biomedical Buddy in Bytes!</p>
+        </div>
+    </header>
+
+    <!-- Your Content Goes Here -->
+
+    <!-- JavaScript -->
+    <script>
+        // JavaScript code for any additional functionality can go here
+    </script>
+</body>
+</html>
+
+
+
 .
 <script type="text/javascript">
   (function(d, t) {
