@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
 <head>
     <title>Your Website</title>
@@ -7,7 +6,7 @@
     <!-- Header -->
     <header>
         <div id="logo-container">
-            <img src="![MyBME BOT](https://github.com/GokulDasPB/Bmebot.github.io/assets/83214420/46df3be1-11c6-4557-9c45-610a9b1244c6)" >
+            <img src="![MyBME BOT](https://github.com/GokulDasPB/Bmebot.github.io/assets/83214420/fd3e9d16-fd91-421e-a166-35ad974aa178)" >
         </div>
         <div id="header-text">
             <h1>BMEbot</h1>
