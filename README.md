@@ -6,7 +6,7 @@
     <!-- Header -->
     <header>
         <div id="logo-container">
-            <img src="[![MyBME BOT](https://github.com/GokulDasPB/Bmebot.github.io/assets/83214420/fd3e9d16-fd91-421e-a166-35ad974aa178)]" >
+            <img src="[![MyBME BOT]MyBME BOT.png" >
         </div>
         <div id="header-text">
             <h1>BMEbot</h1>
