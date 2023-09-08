@@ -10,15 +10,17 @@
         <div id="header-text">
             <h1>BMEbot</h1>
             <b><p>Your Biomedical Buddy in Bytes!</p><b>
-        </div>
+        
+            </div>
     </header>
 <b><p>BMEbot is your friendly guide to the fascinating world of biomedical engineering. Learn, explore, and discover with us!</p><b>
     <script>
     </script>
 </body>
 </html>
+            
             </div>
-<html>
+           <html>
 <head>
     <title>Newsletter Subscription</title>
     <style>
