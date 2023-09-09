@@ -19,9 +19,7 @@
         // JavaScript code for any additional functionality can go here
     </script>
 
-<!DOCTYPE HTML>
-
-    <title>Newsletter Subscription</title>
+  <title>Newsletter Subscription</title>
     <style>
         /* Add custom CSS styles for the form and button */
         body {
@@ -72,7 +70,7 @@
         </form>
     </div>
 
-    <script>
+<script>
         // JavaScript code for handling form submission (no Google Sheets integration)
         document.getElementById("subscription-form").addEventListener("submit", function (e) {
             e.preventDefault();
@@ -87,6 +85,31 @@
 </body>
 </html>
 
+     // Contact me form
+     <!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Me</title>
+</head>
+<body>
+    <div id="contact-container">
+        <h2>Contact Me</h2>
+        <p>Your friendly biomedical expert</p>
+        <button id="book-call-button">Book a Call</button>
+    </div>
+
+ <script>
+        // JavaScript code to open the Calendly link when the button is clicked
+        document.getElementById("book-call-button").addEventListener("click", function () {
+            // Replace the URL below with your Calendly scheduling link
+            var calendlyLink = "[https://calendly.com/your-username](https://calendly.com/gokuldaspb23)";
+            
+            // Open the Calendly link in a new tab or window
+            window.open(calendlyLink, "_blank");
+        });
+    </script>
+</body>
+</html>
 
 
 .
