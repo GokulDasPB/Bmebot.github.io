@@ -89,8 +89,8 @@
     // Clear the email input after submission
     document.getElementById("email").value = "";
 });
-
-
+<html>
+<head>
     <title>Contact Me</title>
     <style>
         /* Add custom CSS styles for the contact button */
