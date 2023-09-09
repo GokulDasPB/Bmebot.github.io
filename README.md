@@ -10,6 +10,9 @@
         body {
             background: linear-gradient(90deg, #0097b2, #7ed957);
             text-align: center;
+    <!DOCTYPE html>
+<html>
+<head>
     <title>Newsletter Subscription</title>
     <style>
         /* Add custom CSS styles for the form and button */
@@ -17,39 +20,47 @@
             background: linear-gradient(90deg, #0097b2, #7ed957);
             text-align: center;
         }
-        .newsletter-form {
+.newsletter-form {
             background-color: #fff;
             padding: 20px;
             border-radius: 5px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
             max-width: 400px;
             margin: 0 auto;
+            margin-bottom: 20px; /* Space between newsletter and contact box */
         }
-        .input-container {
+ .input-container {
             display: flex;
             justify-content: center;
             align-items: center;
             margin-bottom: 15px;
         }
-        button[type="submit"] {
-            background-color: #0097b2;
+        /* Modern-style Subscribe button */
+        .subscribe-button {
+            background-color: #0077B5; /* Blue color for Subscribe */
             color: #fff;
-            padding: 10px 20px;
+            padding: 15px 30px;
             border: none;
             border-radius: 5px;
+            font-size: 18px;
             cursor: pointer;
+            transition: background-color 0.3s;
+            margin-top: 20px;
+            display: block;
+            margin: 0 auto;
+            text-decoration: none; /* Remove underline for links */
+        }
+        .subscribe-button:hover {
+            background-color: #005a8e; /* Darker blue on hover */
         }
     </style>
-</head>
-<body>
     <div class="newsletter-form">
         <h2>The Bulletin</h2>
-        <p>Your Biomedical Buddy in Bytes!</p>
-        <form id="subscription-form" action="https://www.linkedin.com/newsletters/7095280930394689537" target="_blank">
-            <div class="input-container">
-                <button type="submit">Subscribe</button>
-            </div>
-        </form>
+        <p>A free newsletter loaded with actionable steps to help you in your biomedical career and personal life. Become smarter in your professional and personal life with this weekly newsletter in just 5 minutes or less. Join 100+ Subscribers Today!</p>
+        <!-- Modern-style Subscribe button -->
+        <a class="subscribe-button" href="https://www.linkedin.com/newsletters/7095280930394689537" target="_blank">
+            Subscribe
+        </a>
     </div>
 </body>
     <title>Contact Me</title>
