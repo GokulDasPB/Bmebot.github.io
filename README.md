@@ -54,7 +54,6 @@
         </form>
     </div>
 </body>
-</html>
 <head>
     <title>Contact Me</title>
     <style>
@@ -115,4 +114,3 @@
   v.src = "https://cdn.voiceflow.com/widget/bundle.mjs"; v.type = "text/javascript"; s.parentNode.insertBefore(v, s);
  })(document, 'script');
 </script>
-</html>
