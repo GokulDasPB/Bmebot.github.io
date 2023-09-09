@@ -57,12 +57,7 @@
 
 <body>
     <div class="newsletter-container">
-        <h2 class="newsletter-heading">LinkedIn Newsletter</h2>
-        <p class="newsletter-description">Stay updated with the latest in biomedical engineering. Subscribe to our LinkedIn newsletter for valuable insights and updates.</p>
         <!-- Modern-style Subscribe button -->
-        <a class="subscribe-button" href="https://www.linkedin.com/newsletters/your-newsletter-name" target="_blank">
-            Subscribe
-        </a>
     </div>
 </body>
 <title>Contact Me</title>
