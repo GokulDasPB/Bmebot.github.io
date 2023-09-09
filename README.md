@@ -1,7 +1,6 @@
 <html>
 <head>
     <title>Your Website</title>
-</head>
 <body>
     <!-- Header -->
     <header>
@@ -70,24 +69,30 @@
     </div>
 
 <script>
-        // JavaScript code for handling form submission (no Google Sheets integration)
-        document.getElementById("subscription-form").addEventListener("submit", function (e) {
-            e.preventDefault();
-            const email = document.getElementById("email").value;
-            // Here, you can add code to send the email to your server or Google Sheets.
-            // This example only collects the email value.
-            console.log("Subscribed with email:", email);
-            // Clear the email input after submission
-            document.getElementById("email").value = "";
-        });
-    </script>
-</body>
-</html>
+       document.getElementById("subscription-form").addEventListener("submit", function (e) {
+    e.preventDefault();
+    const email = document.getElementById("email").value;
 
-     // Contact me form
-<!DOCTYPE html><HTML>
-<head>
-    <title>Contact Me</title>
+    // Send the email to Google Apps Script
+    fetch('https://script.google.com/macros/s/AKfycbwW9ozDKOtQstyVeSA-S2glQfsbY7_3HpVx5KXVX1V3efOpMkW22eqFVzkkTJuouiLNAA/exec', {
+        method: 'POST',
+        body: JSON.stringify({ email }),
+        headers: {
+            'Content-Type': 'application/x-www-form-urlencoded'
+        },
+    })
+    .then(response => response.text())
+    .then(data => {
+        console.log(data); // Log the response from Google Apps Script
+        // You can add further handling here, such as displaying a thank you message.
+    });
+
+    // Clear the email input after submission
+    document.getElementById("email").value = "";
+});
+
+
+<title>Contact Me</title>
     <style>
         /* Add custom CSS styles for the contact button */
         body {
