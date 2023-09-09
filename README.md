@@ -10,48 +10,58 @@
         body {
             background: linear-gradient(90deg, #0097b2, #7ed957);
             text-align: center;
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Your Page Title</title>
+    <style>
+        /* Add custom CSS styles for the form and button */
+        body {
+            background: linear-gradient(90deg, #0097b2, #7ed957);
+            text-align: center;
         }
-        .newsletter-form {
+ .newsletter-form {
             background-color: #fff;
             padding: 20px;
             border-radius: 5px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
             max-width: 400px;
             margin: 0 auto;
+            margin-bottom: 20px; /* Space between newsletter and contact box */
         }
-        .input-container {
+ .input-container {
             display: flex;
             justify-content: center;
             align-items: center;
             margin-bottom: 15px;
         }
-        input[type="email"] {
+input[type="email"] {
             width: 100%;
             padding: 10px;
             border: 1px solid #ccc;
             border-radius: 5px;
         }
-        button[type="submit"] {
-            background-color: #0097b2;
+.linkedin-button {
+            background-color: #0077B5; /* LinkedIn blue color */
             color: #fff;
             padding: 10px 20px;
             border: none;
             border-radius: 5px;
+            font-size: 16px;
             cursor: pointer;
+            text-decoration: none; /* Remove underline for links */
+            display: inline-block;
+        }
+.linkedin-button:hover {
+            background-color: #005a8e; /* Darker blue on hover */
         }
     </style>
+
 <body>
     <div class="newsletter-form">
         <h2>The Bulletin</h2>
         <p>A free newsletter loaded with actionable steps to help you in your biomedical career and personal life. Become smarter in your professional and personal life with this weekly newsletter in just 5 minutes or less. Join 100+ Subscribers Today!</p>
-        <form id="subscription-form">
-            <div class="input-container">
-                <input type="email" id="email" name="email" placeholder="Enter your email" required>
-            </div>
-            <div class="input-container">
-                <button type="submit">Subscribe</button>
-            </div>
-        </form>
+        <a class="linkedin-button" href="https://www.linkedin.com/newsletters/7095280930394689537" target="_blank">Visit My LinkedIn Newsletter</a>
     </div>
 </body>
 <head>
