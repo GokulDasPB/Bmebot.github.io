@@ -4,6 +4,7 @@
             <p>Your Biomedical Buddy in Bytes!</p>
     <b><p>BMEbot is your friendly guide to the fascinating world of biomedical engineering. Learn, explore, and discover with us!</p><b>
      <h2>Please find the bot below</h2>
+     
     <script>
     <title>Newsletter Subscription</title>
     <style>
@@ -54,7 +55,7 @@
             </div>
         </form>
     </div>
-    <html>
+   <html>
     <head>
     <title>Contact Me</title>
     <style>
