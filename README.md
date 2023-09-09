@@ -18,7 +18,6 @@
     <script>
         // JavaScript code for any additional functionality can go here
     </script>
-
   <title>Newsletter Subscription</title>
     <style>
         /* Add custom CSS styles for the form and button */
@@ -86,28 +85,53 @@
 </html>
 
      // Contact me form
-     <!DOCTYPE html>
-<html>
+<!DOCTYPE html><HTML>
 <head>
     <title>Contact Me</title>
+    <style>
+        /* Add custom CSS styles for the contact button */
+        body {
+            text-align: center;
+        }
+        #contact-container {
+            background: #f7f7f7;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            max-width: 400px;
+            margin: 0 auto;
+        }
+        #contact-heading {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        #contact-subscript {
+            font-size: 14px;
+            color: #777;
+            margin-bottom: 20px;
+        }
+        #book-call-button {
+            background-color: #0097b2;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        #book-call-button:hover {
+            background-color: #00738a;
+        }
+    </style>
 </head>
 <body>
     <div id="contact-container">
-        <h2>Contact Me</h2>
-        <p>Your friendly biomedical expert</p>
-        <button id="book-call-button">Book a Call</button>
+        <p id="contact-subscript">Intresed in building a bot like this? </p>
+        <h3 id="contact-heading">Book a Meet up with me</h3>
+        <h4 id="contact-heading">Contact Me</h4>
+        <a href="https://calendly.com/gokuldaspb23" target="_blank" id="book-call-button">Book a Call</a>
     </div>
-
- <script>
-        // JavaScript code to open the Calendly link when the button is clicked
-        document.getElementById("book-call-button").addEventListener("click", function () {
-            // Replace the URL below with your Calendly scheduling link
-            var calendlyLink = "[https://calendly.com/your-username](https://calendly.com/gokuldaspb23)";
-            
-            // Open the Calendly link in a new tab or window
-            window.open(calendlyLink, "_blank");
-        });
-    </script>
 </body>
 </html>
 
