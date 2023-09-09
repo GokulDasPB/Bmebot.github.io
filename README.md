@@ -1,5 +1,4 @@
 <html>
-<head>
     <title>Your Website</title>
 <body>
     <!-- Header -->
@@ -92,7 +91,7 @@
 });
 
 
-<title>Contact Me</title>
+    <title>Contact Me</title>
     <style>
         /* Add custom CSS styles for the contact button */
         body {
@@ -138,7 +137,6 @@
     </div>
 </body>
 </html>
-
 
 .
 <script type="text/javascript">
