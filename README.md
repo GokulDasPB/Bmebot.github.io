@@ -19,7 +19,7 @@
         body {
             background: linear-gradient(90deg, #0097b2, #7ed957);
             text-align: center;
-        }
+            }
  .newsletter-form {
             background-color: #fff;
             padding: 20px;
@@ -41,6 +41,12 @@ input[type="email"] {
             border: 1px solid #ccc;
             border-radius: 5px;
         }
+/* Add custom CSS styles for the LinkedIn button */
+        .linkedin-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
 .linkedin-button {
             background-color: #0077B5; /* LinkedIn blue color */
             color: #fff;
@@ -50,19 +56,53 @@ input[type="email"] {
             font-size: 16px;
             cursor: pointer;
             text-decoration: none; /* Remove underline for links */
-            display: inline-block;
+            display: inline-flex;
+            align-items: center;
         }
 .linkedin-button:hover {
             background-color: #005a8e; /* Darker blue on hover */
         }
+ .linkedin-logo {
+            font-size: 24px;
+            margin-right: 10px; /* Space between logo and text */
+        }
+ /* Container for the Subscribe button */
+        .subscribe-container {
+            background-color: #fff;
+            border-radius: 5px;
+            padding: 10px;
+            margin-top: 20px; /* Space between LinkedIn and Subscribe */
+        }
+ /* Style for the Subscribe button */
+        .subscribe-button {
+            background-color: #0077B5; /* Blue color for Subscribe */
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            text-decoration: none; /* Remove underline for links */
+            display: inline-flex;
+            align-items: center;
+        }
+  .subscribe-button:hover {
+            background-color: #005a8e; /* Darker blue on hover */
+        }
     </style>
-
 <body>
     <div class="newsletter-form">
         <h2>The Bulletin</h2>
         <p>A free newsletter loaded with actionable steps to help you in your biomedical career and personal life. Become smarter in your professional and personal life with this weekly newsletter in just 5 minutes or less. Join 100+ Subscribers Today!</p>
-        <a class="linkedin-button" href="https://www.linkedin.com/newsletters/7095280930394689537" target="_blank">Visit My LinkedIn Newsletter</a>
-    </div>
+         <!-- Container for LinkedIn button with logo -->
+        <div class="linkedin-container">
+            <a class="linkedin-button" href="https://www.linkedin.com/newsletters/7095280930394689537" target="_blank">
+                <span class="linkedin-logo">&#xe769;</span> Visit My LinkedIn Newsletter
+            </a>
+        </div>
+        <div class="subscribe-container">
+            <button class="subscribe-button">Subscribe</button>
+        </div>
 </body>
 <head>
     <title>Contact Me</title>
