@@ -1,4 +1,4 @@
-    <html>
+ <html>
         <div id="header-text">
             <h1>BMEbot</h1>
             <p>Your Biomedical Buddy in Bytes!</p>
