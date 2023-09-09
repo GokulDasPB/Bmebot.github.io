@@ -19,95 +19,50 @@
         body {
             background: linear-gradient(90deg, #0097b2, #7ed957);
             text-align: center;
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Your Page Title</title>
+ <title>newsletterpage</title>
     <style>
-        /* Add custom CSS styles for the form and button */
+        /* Add custom CSS styles for the contact button */
         body {
-            background: linear-gradient(90deg, #0097b2, #7ed957);
             text-align: center;
         }
- .newsletter-form {
-            background-color: #fff;
+        #contact-container {
+            background: #f7f7f7;
             padding: 20px;
-            border-radius: 5px;
+            border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
             max-width: 400px;
             margin: 0 auto;
-            margin-bottom: 20px; /* Space between newsletter and contact box */
         }
- .input-container {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin-bottom: 15px;
+        #contact-heading {
+            font-size: 24px;
+            font-weight: bold;
         }
-  input[type="email"] {
-            width: 100%;
-            padding: 10px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
+        #contact-subscript {
+            font-size: 14px;
+            color: #777;
+            margin-bottom: 20px;
         }
- /* Add custom CSS styles for the LinkedIn button */
-        .linkedin-container {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-.linkedin-button {
-            background-color: #0077B5; /* LinkedIn blue color */
+        #book-call-button {
+            background-color: #0097b2;
             color: #fff;
             padding: 10px 20px;
             border: none;
             border-radius: 5px;
             font-size: 16px;
             cursor: pointer;
-            text-decoration: none; /* Remove underline for links */
-            display: inline-flex;
-            align-items: center;
-        }
-.linkedin-button:hover {
-            background-color: #005a8e; /* Darker blue on hover */
-        }
-.linkedin-logo {
-            font-size: 24px;
-            margin-right: 10px; /* Space between logo and text */
-        }
- /* Modern-style Subscribe button */
-        .subscribe-button {
-            background-color: #0077B5; /* Blue color for Subscribe */
-            color: #fff;
-            padding: 15px 30px;
-            border: none;
-            border-radius: 5px;
-            font-size: 18px;
-            cursor: pointer;
             transition: background-color 0.3s;
-            margin-top: 20px;
-            display: block;
-            margin: 0 auto;
-            text-decoration: none; /* Remove underline for links */
         }
- .subscribe-button:hover {
-            background-color: #005a8e; /* Darker blue on hover */
+        #book-call-button:hover {
+            background-color: #00738a;
         }
-    </style>
+</head>
 <body>
-    <div class="newsletter-form">
-        <h2>The Bulletin</h2>
-        <p>A free newsletter loaded with actionable steps to help you in your biomedical career and personal life. Become smarter in your professional and personal life with this weekly newsletter in just 5 minutes or less. Join 100+ Subscribers Today!</p>
-        <!-- Container for LinkedIn button with logo -->
-        <div class="linkedin-container">
-            <a class="linkedin-button" href="https://www.linkedin.com/newsletters/your-newsletter-name" target="_blank">
-                <span class="linkedin-logo">&#xe769;</span> Visit My LinkedIn Newsletter
-            </a>
-        </div>
-<!-- Modern-style Subscribe button -->
-        <button class="subscribe-button">
-            Subscribe
-        </button>
+    <div id="contact-container">
+        <h3 id="contact-heading">The Bulletin</h3>
+        <p>A free newsletter loaded with actionable steps to  help you in your biomedical career and personal life. Become smarter in your professional and personal life with this weekly newsletter in just 5 minutes or less. Join 100+ Subscribers Today!</p>
+        <a href="https://www.linkedin.com/newsletters/7095280930394689537" target="_blank" id="book-call-button">Subcribe</a>
+    </div>
+</body>
     </div>
 <head>
     <title>Contact Me</title>
