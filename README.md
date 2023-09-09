@@ -10,8 +10,6 @@
         <div id="header-text">
             <h1>BMEbot</h1>
             <p>Your Biomedical Buddy in Bytes!</p>
-        </div>
-    </header>
 <b><p>BMEbot is your friendly guide to the fascinating world of biomedical engineering. Learn, explore, and discover with us!</p><b>
      <h2>Please find the bot below</h2>
    <!-- Your Content Goes Here -->
@@ -20,11 +18,9 @@
     <script>
         // JavaScript code for any additional functionality can go here
     </script>
-</body>
-</html>
-<!DOCTYPE html>
-<html>
-<head>
+
+<!DOCTYPE HTML>
+
     <title>Newsletter Subscription</title>
     <style>
         /* Add custom CSS styles for the form and button */
