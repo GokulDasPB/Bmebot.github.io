@@ -10,32 +10,31 @@
         body {
             background: linear-gradient(90deg, #0097b2, #7ed957);
             text-align: center;
-    <!DOCTYPE html>
-<html>
-<head>
-    <title>Newsletter Subscription</title>
+    <title>LinkedIn Newsletter</title>
     <style>
-        /* Add custom CSS styles for the form and button */
+        /* Add custom CSS styles for the container and button */
         body {
             background: linear-gradient(90deg, #0097b2, #7ed957);
             text-align: center;
         }
-.newsletter-form {
+.newsletter-container {
             background-color: #fff;
             padding: 20px;
             border-radius: 5px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
             max-width: 400px;
             margin: 0 auto;
-            margin-bottom: 20px; /* Space between newsletter and contact box */
         }
- .input-container {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin-bottom: 15px;
+.newsletter-heading {
+            font-size: 24px;
+            font-weight: bold;
         }
-        /* Modern-style Subscribe button */
+.newsletter-description {
+            font-size: 16px;
+            color: #555;
+            margin-bottom: 20px;
+        }
+/* Modern-style Subscribe button */
         .subscribe-button {
             background-color: #0077B5; /* Blue color for Subscribe */
             color: #fff;
@@ -45,20 +44,22 @@
             font-size: 18px;
             cursor: pointer;
             transition: background-color 0.3s;
-            margin-top: 20px;
             display: block;
             margin: 0 auto;
             text-decoration: none; /* Remove underline for links */
         }
-        .subscribe-button:hover {
+ .subscribe-button:hover {
             background-color: #005a8e; /* Darker blue on hover */
         }
     </style>
-    <div class="newsletter-form">
-        <h2>The Bulletin</h2>
-        <p>A free newsletter loaded with actionable steps to help you in your biomedical career and personal life. Become smarter in your professional and personal life with this weekly newsletter in just 5 minutes or less. Join 100+ Subscribers Today!</p>
+</head>
+
+<body>
+    <div class="newsletter-container">
+        <h2 class="newsletter-heading">LinkedIn Newsletter</h2>
+        <p class="newsletter-description">Stay updated with the latest in biomedical engineering. Subscribe to our LinkedIn newsletter for valuable insights and updates.</p>
         <!-- Modern-style Subscribe button -->
-        <a class="subscribe-button" href="https://www.linkedin.com/newsletters/7095280930394689537" target="_blank">
+        <a class="subscribe-button" href="https://www.linkedin.com/newsletters/your-newsletter-name" target="_blank">
             Subscribe
         </a>
     </div>
