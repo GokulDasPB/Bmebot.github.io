@@ -91,19 +91,12 @@
         #book-call-button:hover {
             background-color: #00738a;
         }
-    </style>
-p {
-     color: black;
-        }
-    </style>
     <style>
         /* Apply black color to paragraph text */
         p {
-            
             color: black;
         }
-    </style>
-</head>
+     </style>
 <body>
     <p>Interested in building a bot like this?</p>
 </body>
