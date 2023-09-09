@@ -7,7 +7,7 @@
      
     <script>
    <title>Newsletter Subscription</title>
-    <style>
+        <style>
         /* Add custom CSS styles for the form and button */
         body {
             background: linear-gradient(90deg, #0097b2, #7ed957);
