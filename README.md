@@ -66,9 +66,10 @@
             </div>
         </form>
     </div>
-<!DOCTYPE html>
-<html>
-<head>
+    
+    <!DOCTYPE html>
+    <html>
+    <head>
     <title>Contact Me</title>
     <style>
         /* Add custom CSS styles for the contact button */
