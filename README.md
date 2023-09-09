@@ -92,11 +92,10 @@
             background-color: #00738a;
         }
     </style>
-    </div>
+<p id="contact-subscript">Interested in building a bot like this?</p>
 </head>
 <body>
     <div id="contact-container">
-       <p id="contact-subscript">Interested in building a bot like this?</p>
         <h3 id="contact-heading">Book a Meetup with me</h3>
         <a href="https://calendly.com/gokuldaspb23" target="_blank" id="book-call-button">Book a Call</a>
     </div>
