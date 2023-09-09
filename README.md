@@ -66,29 +66,6 @@
             </div>
         </form>
     </div>
-
-<script>
-       document.getElementById("subscription-form").addEventListener("submit", function (e) {
-    e.preventDefault();
-    const email = document.getElementById("email").value;
-
-    // Send the email to Google Apps Script
-    fetch('https://script.google.com/macros/s/AKfycbwW9ozDKOtQstyVeSA-S2glQfsbY7_3HpVx5KXVX1V3efOpMkW22eqFVzkkTJuouiLNAA/exec', {
-        method: 'POST',
-        body: JSON.stringify({ email }),
-        headers: {
-            'Content-Type': 'application/x-www-form-urlencoded'
-        },
-    })
-    .then(response => response.text())
-    .then(data => {
-        console.log(data); // Log the response from Google Apps Script
-        // You can add further handling here, such as displaying a thank you message.
-    });
-
-    // Clear the email input after submission
-    document.getElementById("email").value = "";
-});
 <!DOCTYPE html>
 <html>
 <head>
