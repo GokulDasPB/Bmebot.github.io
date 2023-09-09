@@ -3,7 +3,7 @@
 <head>
     <title>BMEbot</title>
     <h1>BMEbot</h1>
-            <p>Your Biomedical Buddy in Bytes!</p>
+   <p>Your Biomedical Buddy in Bytes!</p>
     <b><p>BMEbot is your friendly guide to the fascinating world of biomedical engineering. Learn, explore, and discover with us!</p><b>
      <h2>Please find the bot below</h2>
     <style>
