@@ -10,61 +10,48 @@
         body {
             background: linear-gradient(90deg, #0097b2, #7ed957);
             text-align: center;
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Your Page Title</title>
+    <title>Newsletter Subscription</title>
     <style>
         /* Add custom CSS styles for the form and button */
         body {
             background: linear-gradient(90deg, #0097b2, #7ed957);
             text-align: center;
- <title>newsletterpage</title>
-    <style>
-        /* Add custom CSS styles for the contact button */
-        body {
-            text-align: center;
         }
-        #contact-container {
-            background: #f7f7f7;
+        .newsletter-form {
+            background-color: #fff;
             padding: 20px;
-            border-radius: 10px;
+            border-radius: 5px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
             max-width: 400px;
             margin: 0 auto;
         }
-        #contact-heading {
-            font-size: 24px;
-            font-weight: bold;
+        .input-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 15px;
         }
-        #contact-subscript {
-            font-size: 14px;
-            color: #777;
-            margin-bottom: 20px;
-        }
-        #book-call-button {
+        button[type="submit"] {
             background-color: #0097b2;
             color: #fff;
             padding: 10px 20px;
             border: none;
             border-radius: 5px;
-            font-size: 16px;
             cursor: pointer;
-            transition: background-color 0.3s;
         }
-        #book-call-button:hover {
-            background-color: #00738a;
-        }
+    </style>
 </head>
 <body>
-    <div id="contact-container">
-        <h3 id="contact-heading">The Bulletin</h3>
-        <p>A free newsletter loaded with actionable steps to  help you in your biomedical career and personal life. Become smarter in your professional and personal life with this weekly newsletter in just 5 minutes or less. Join 100+ Subscribers Today!</p>
-        <a href="https://www.linkedin.com/newsletters/7095280930394689537" target="_blank" id="book-call-button">Subcribe</a>
+    <div class="newsletter-form">
+        <h2>The Bulletin</h2>
+        <p>Your Biomedical Buddy in Bytes!</p>
+        <form id="subscription-form" action="https://www.linkedin.com/newsletters/7095280930394689537" target="_blank">
+            <div class="input-container">
+                <button type="submit">Subscribe</button>
+            </div>
+        </form>
     </div>
 </body>
-    </div>
-<head>
     <title>Contact Me</title>
     <style>
         /* Add custom CSS styles for the contact button */
