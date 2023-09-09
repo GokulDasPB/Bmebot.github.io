@@ -92,6 +92,7 @@
             background-color: #00738a;
         }
     </style>
+    </div>
 </head>
 <body>
     <div id="contact-container">
