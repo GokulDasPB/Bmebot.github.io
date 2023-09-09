@@ -9,19 +9,21 @@
         </div>
         <div id="header-text">
             <h1>BMEbot</h1>
-            <b><p>Your Biomedical Buddy in Bytes!</p><b>
-        
-            </div>
+            <p>Your Biomedical Buddy in Bytes!</p>
+        </div>
     </header>
 <b><p>BMEbot is your friendly guide to the fascinating world of biomedical engineering. Learn, explore, and discover with us!</p><b>
+     <h2>Please find the bot below</h2>
+   <!-- Your Content Goes Here -->
+
+    <!-- JavaScript -->
     <script>
+        // JavaScript code for any additional functionality can go here
     </script>
-    
-             </body>
-             </html>
-            
-            </div>
-           <html>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
 <head>
     <title>Newsletter Subscription</title>
     <style>
