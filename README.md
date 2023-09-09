@@ -53,8 +53,6 @@
             background-color: #005a8e; /* Darker blue on hover */
         }
     </style>
-</head>
-
 <body>
     <div class="newsletter-container">
         <!-- Modern-style Subscribe button -->
@@ -105,7 +103,6 @@
 <body>
     <p>Interested in building a bot like this?</p>
 </body>
-</head>
 <body>
     <div id="contact-container">
         <h3 id="contact-heading">Book a Meetup with me</h3>
