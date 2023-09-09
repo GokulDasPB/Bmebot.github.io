@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
 <head>
     <title>BMEbot</title>
@@ -41,7 +40,6 @@
             cursor: pointer;
         }
     </style>
-</head>
 <body>
     <div class="newsletter-form">
         <h2>The Bulletin</h2>
@@ -57,10 +55,6 @@
     </div>
 </body>
 </html>
-</html>
-
-<!DOCTYPE html>
-<html>
 <head>
     <title>Contact Me</title>
     <style>
@@ -107,7 +101,6 @@
         <a href="https://calendly.com/gokuldaspb23" target="_blank" id="book-call-button">Book a Call</a>
     </div>
 </body>
-</html>
 
 <script type="text/javascript">
 (function(d, t) {
