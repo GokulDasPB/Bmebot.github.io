@@ -92,7 +92,20 @@
             background-color: #00738a;
         }
     </style>
-<p id="contact-subscript">Interested in building a bot like this?</p>
+p {
+     color: black;
+        }
+    </style>
+    <style>
+        /* Apply black color to paragraph text */
+        p {
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <p>Interested in building a bot like this?</p>
+</body>
 </head>
 <body>
     <div id="contact-container">
