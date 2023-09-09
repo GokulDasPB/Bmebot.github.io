@@ -1,17 +1,11 @@
     <html>
-    <title>Your Website</title>
-    <body>
-    <!-- Header -->
-    <header>
-        <div id="logo-container">
-        </div>
         <div id="header-text">
             <h1>BMEbot</h1>
             <p>Your Biomedical Buddy in Bytes!</p>
     <b><p>BMEbot is your friendly guide to the fascinating world of biomedical engineering. Learn, explore, and discover with us!</p><b>
      <h2>Please find the bot below</h2>
     <script>
--------------------------------------------------------------------------------------------------------------------------
+    -------------------------------------------------------------------------------------------------------------------------
     // NEWSLETTER CODE👇
     <title>Newsletter Subscription</title>
     <style>
@@ -62,7 +56,7 @@
             </div>
         </form>
     </div>
------------------------------------------------------------------------------------------------------------------------------------------
+    -----------------------------------------------------------------------------------------------------------------------------------------
     // CONTACT ME FORM👇
     <html>
     <head>
@@ -110,7 +104,7 @@
         <h3 id="contact-heading">Book a Meet up with me</h3>
         <a href="https://calendly.com/your-username" target="_blank" id="book-call-button">Book a Call</a>
     </div>
------------------------------------------------------------------------------------------------------------------------------------------
+     -----------------------------------------------------------------------------------------------------------------------------------------
     // BOT SOURCE CODE👇
     </body>
     </html>
