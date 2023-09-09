@@ -10,12 +10,9 @@
             <p>Your Biomedical Buddy in Bytes!</p>
     <b><p>BMEbot is your friendly guide to the fascinating world of biomedical engineering. Learn, explore, and discover with us!</p><b>
      <h2>Please find the bot below</h2>
-   <!-- Your Content Goes Here -->
-
-    <!-- JavaScript -->
     <script>
-        // JavaScript code for any additional functionality can go here
-    </script>
+-------------------------------------------------------------------------------------------------------------------------
+    // NEWSLETTER CODE👇
     <title>Newsletter Subscription</title>
     <style>
         /* Add custom CSS styles for the form and button */
@@ -52,7 +49,6 @@
             cursor: pointer;
         }
     </style>
-    </head>
     <body>
     <div class="newsletter-form">
         <h2>The Bulletin</h2>
@@ -66,8 +62,8 @@
             </div>
         </form>
     </div>
-    
-    <!DOCTYPE html>
+-----------------------------------------------------------------------------------------------------------------------------------------
+    // CONTACT ME FORM👇
     <html>
     <head>
     <title>Contact Me</title>
@@ -114,6 +110,8 @@
         <h3 id="contact-heading">Book a Meet up with me</h3>
         <a href="https://calendly.com/your-username" target="_blank" id="book-call-button">Book a Call</a>
     </div>
+-----------------------------------------------------------------------------------------------------------------------------------------
+    // BOT SOURCE CODE👇
     </body>
     </html>
     <script type="text/javascript">
