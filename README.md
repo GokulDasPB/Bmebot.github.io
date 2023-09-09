@@ -134,7 +134,6 @@
     <div id="contact-container">
         <p id="contact-subscript">Intresed in building a bot like this? </p>
         <h3 id="contact-heading">Book a Meet up with me</h3>
-        <h4 id="contact-heading">Contact Me</h4>
         <a href="https://calendly.com/gokuldaspb23" target="_blank" id="book-call-button">Book a Call</a>
     </div>
 </body>
