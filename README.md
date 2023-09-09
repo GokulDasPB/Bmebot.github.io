@@ -99,6 +99,7 @@ p {
     <style>
         /* Apply black color to paragraph text */
         p {
+            
             color: black;
         }
     </style>
