@@ -5,7 +5,7 @@
     <b><p>BMEbot is your friendly guide to the fascinating world of biomedical engineering. Learn, explore, and discover with us!</p><b>
      <h2>Please find the bot below</h2>
      
-    <script>
+   <script>
     <title>Newsletter Subscription</title>
     <style>
         /* Add custom CSS styles for the form and button */
