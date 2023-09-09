@@ -10,6 +10,61 @@
         body {
             background: linear-gradient(90deg, #0097b2, #7ed957);
             text-align: center;
+               <title>LinkedIn Newsletter</title>
+    <style>
+        /* Add custom CSS styles for the container and button */
+        body {
+            background: linear-gradient(90deg, #0097b2, #7ed957);
+            text-align: center;
+        }
+.newsletter-container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            max-width: 400px;
+            margin: 0 auto;
+        }
+ .newsletter-heading {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .newsletter-description {
+            font-size: 16px;
+            color: #555;
+            margin-bottom: 20px;
+        }
+/* Modern-style Subscribe button */
+        .subscribe-button {
+            background-color: #0077B5; /* Blue color for Subscribe */
+            color: #fff;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 5px;
+            font-size: 18px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            display: block;
+            margin: 0 auto;
+            text-decoration: none; /* Remove underline for links */
+        }
+
+ .subscribe-button:hover {
+            background-color: #005a8e; /* Darker blue on hover */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="newsletter-container">
+        <h2 class="newsletter-heading">LinkedIn Newsletter</h2>
+        <p class="newsletter-description">Stay updated with the latest in biomedical engineering. Subscribe to our LinkedIn newsletter for valuable insights and updates.</p>
+        <!-- Modern-style Subscribe button -->
+        <a class="subscribe-button" href="https://www.linkedin.com/newsletters/your-newsletter-name" target="_blank">
+            Subscribe
+        </a>
+    </div>
+</body>
 <title>Contact Me</title>
     <style>
         /* Add custom CSS styles for the contact button */
